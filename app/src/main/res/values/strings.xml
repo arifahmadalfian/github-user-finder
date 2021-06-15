@@ -2,4 +2,6 @@
     <string name="app_name">Github User Finder</string>
     <string name="nama">Nama</string>
     <string name="url_github">URL Github</string>
+    <string name="find_user_github">Find User Github</string>
+    <string name="data_user_github_tidak_di_temukan">Data User Github Tidak di temukan</string>
 </resources>
