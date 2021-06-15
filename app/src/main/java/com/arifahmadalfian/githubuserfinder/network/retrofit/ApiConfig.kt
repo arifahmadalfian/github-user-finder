@@ -1,6 +1,5 @@
 package com.arifahmadalfian.githubuserfinder.network.retrofit
 
-import com.arifahmadalfian.githubuserfinder.network.model.BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -17,7 +16,7 @@ class ApiConfig {
                 .build()
 
             val retrofit = Retrofit.Builder()
-                .baseUrl(BASE_URL)
+                .baseUrl("https://api.github.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()
