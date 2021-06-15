@@ -9,7 +9,7 @@ import retrofit2.http.Query
 interface ApiService {
 
     @GET("search/users")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token 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")
     fun getSearchUser(
         @Query("q") name: String
     ): Call<AllUsers>
